@@ -1,0 +1,51 @@
+*{
+
+    box-sizing: border-box;
+}
+
+
+.nav{
+float: left;
+width:30%;
+height:800px;
+background-color: rosybrown;
+
+}
+.main{
+    float: left;
+    width: 70%;
+    height: 200px;
+    background-color: chartreuse;
+    }
+.header{
+float: left;
+width: 50%;
+height:400px;
+background-color: blue;
+}
+
+.content{
+    float: left;
+    width: 20%;
+    height:400px;
+    background-color: rebeccapurple;
+    
+    
+    }
+.footer{
+float: left;
+width: 70%;
+height: 200px;
+background-color: gold;
+}
+
+@media screen and (max-width: 700px){
+.nav,.content,.header,.header,.footer{
+
+    width: 200%;
+  
+}
+
+}
+
+
